@@ -13,6 +13,9 @@ from clint.textui import puts, colored, indent
 import colorama
 from termcolor import colored
 
+# App Specific Stuff Here
+from src.LeagueOfLegends import LeagueOfLegends
+
 style = style_from_dict({
     Token.QuestionMark: '#fac731 bold',
     Token.Answer      : '#4688f1 bold',
@@ -60,6 +63,11 @@ def cli():
     log("Riot Games Data Dump Analyzer", color="blue", figlet=True)
 
     action = get_actions()
+
+    if action['selection'] == 'total spent on league of legends':
+        lol = LeagueOfLegends()
+        lol.total_spent_on_league()
+
     return None
 
 
