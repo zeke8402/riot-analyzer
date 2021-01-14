@@ -1,8 +1,9 @@
 # Riot Games Data Dump Analyzer
 This is a collection of scripts that will help parse the JSON documents you're given when you request data from Riot Games.
 
-*Warning* Currently WIP, no real functionality yet, can calculate league of legends total spend for a user
-*Also if you clone this make sure you don't commit your own data to the repository!*
+*Warning* Currently WIP, no real functionality yet, can calculate league of legends total spend for a user  
+
+**Also if you clone this make sure you don't commit your own data to the repository!**
 
 ## Instructions
 
